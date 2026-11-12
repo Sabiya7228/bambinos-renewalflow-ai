@@ -1,0 +1,6 @@
+invoice_id,student_id,student_name,parent_name,amount,payment_status
+INV-1001,STU-001,Aarav Demo,Parent A,6000,paid
+INV-1002,STU-002,Mira Demo,Parent B,6000,pending
+INV-1003,STU-003,Kabir Demo,Parent C,6000,paid
+INV-1004,STU-004,Zoya Demo,Parent D,6000,paid
+INV-1005,STU-005,Ishaan Demo,Parent E,6000,paid

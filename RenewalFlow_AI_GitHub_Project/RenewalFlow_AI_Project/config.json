@@ -1,0 +1,19 @@
+{
+  "input_dir": "data",
+  "output_dir": "outputs",
+  "files": {
+    "invoices": "1_invoices.csv",
+    "faculty_forms": "2_faculty_form_unapproved.csv",
+    "booking_requests": "3_booking_requests.csv",
+    "schedule_bookings": "4_class_schedule_bookings.csv",
+    "reference": "reference_active_batches_and_students.csv"
+  },
+  "paid_statuses": [
+    "paid",
+    "success",
+    "successful",
+    "settled",
+    "completed"
+  ],
+  "same_batch_only_auto_approve": true
+}

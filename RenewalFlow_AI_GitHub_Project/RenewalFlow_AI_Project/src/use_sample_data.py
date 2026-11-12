@@ -1,0 +1,1 @@
+from pathlib import Path\nimport shutil\nbase=Path(__file__).resolve().parents[1]\nsrc=base/'data'/'sample'; dst=base/'data'\nfor p in src.glob('*.csv'):\n    shutil.copy2(p,dst/p.name)\nprint('Synthetic sample data copied to data/. Replace with official assessment CSVs before final submission.')\n
